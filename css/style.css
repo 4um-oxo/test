@@ -1,0 +1,97 @@
+html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family:
+      "Helvetica Neue",
+      Arial,
+      "Hiragino Kaku Gothic ProN",
+      "Hiragino Sans",
+      Meiryo,
+      sans-serif;
+  }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 734px;
+}
+
+.content {
+    display: flex;
+}
+
+.box {
+    background-color: #d9d9d9;
+}
+
+.box h2 {
+    font-size: 24px;
+}
+
+.box .tag {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    width: 220px;
+    height: 64px;
+    border-radius: 40px;
+    background-color: #8874FF;
+    text-align: center;
+}
+
+#battle {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 734px;
+    background-color: #E4F1F2;
+}
+
+.jason {
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.ozi {
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+
+
+.chopper img {
+    position: absolute;
+    right: -120px;
+    bottom: -10px;
+    z-index: -1; /* これを1に変更 */
+}
+
+.content_01 {
+    width: 1280px;
+    height: 707px;
+    background: #E9E4F2;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+.oshi {
+    width: 459px;
+    height: 306px;
+}
+
+.oshi p {
+}
